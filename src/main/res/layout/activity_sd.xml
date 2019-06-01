@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".SDActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1.其他应用可以访问，应用卸载时删除\n2.其他应用可以访问，应用卸载时不会删除"
+        android:textColor="#000"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/et_sd_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="存储的文件名" />
+
+    <EditText
+        android:id="@+id/et_sd_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="存储的文件内容" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_sd_save1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="保存1" />
+
+        <Button
+            android:id="@+id/btn_sd_read1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="读取1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_sd_save2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="保存2" />
+
+        <Button
+            android:id="@+id/btn_sd_read2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="读取2" />
+
+    </LinearLayout>
+
+</LinearLayout>

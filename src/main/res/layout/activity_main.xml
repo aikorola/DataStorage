@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:text="测试Android各种数据存储方式"
+        android:textColor="#f00"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/btn_main_sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="SharedPreferences存储"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_main_if"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="内部file存储"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_main_sd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="SD卡file存储"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_main_db"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Sqlite数据库存储"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_main_net"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="网络存储"
+        android:textAllCaps="false" />
+
+
+</LinearLayout>
